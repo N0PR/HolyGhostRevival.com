@@ -1,5 +1,5 @@
 .container{
-    min-height: 100dvh;
+    width: 90vw;
     margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;
@@ -11,6 +11,15 @@ h1 {
 }
 
 .image {
-    width : 60dvw;
-    margin-left: 10rem;
+    display : inline-block;
+    width : 50vw;
+    height: fit-content;
+    margin-left: 1rem;
+}
+.content{
+    width: 85vw;
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: #f4f4ff;
+    
 }
