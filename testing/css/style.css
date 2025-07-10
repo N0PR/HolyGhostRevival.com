@@ -18,8 +18,8 @@ h1 {
 }
 .content{
     width: 85vw;
-    margin-left: 1rem;
+    margin: 0 auto;
     padding: 1rem;
     background-color: #f4f4ff;
-    
+
 }
