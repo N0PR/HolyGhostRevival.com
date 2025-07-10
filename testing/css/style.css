@@ -4,17 +4,20 @@
     padding: 20px;
     background-color: #f4f4f4;
     display : flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 
 }
 h1 { 
+    margin: auto;
     display: inline-block;
 }
 
 .image {
+    margin: auto;
     display : inline-block;
-    width : 50vw;
-    height: fit-content;
-    margin-left: 1rem;
+    width : 40vw;
 }
 .content{
     width: 85vw;
