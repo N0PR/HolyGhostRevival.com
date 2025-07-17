@@ -1,17 +1,22 @@
 .container{
     width: 90vw;
+    height: 85vh;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
     display : flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
 
 }
+main {
+  background: url('/tabs/img/NewBanner.png') no-repeat center;
+  background-size: 80vw;
+}
 h1 { 
     margin: auto;
     display: inline-block;
+    color: blueviolet;
 }
 img{
     display: inline-block;
@@ -20,7 +25,7 @@ img{
 .image {
     margin: auto;
     display : inline-block;
-    width : 40vw;
+    width : 50vw;
 }
 .content{
     width: 85vw;
@@ -65,4 +70,21 @@ img{
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+@media  screen and (max-width: 600px) {
+    .container {
+        width: 100vw;
+        height: 30vh;
+    }
+    .image {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+  
 }
