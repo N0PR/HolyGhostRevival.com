@@ -9,23 +9,17 @@
     justify-content: space-between;
 
 }
-main {
-  background: url('/tabs/img/NewBanner.png') no-repeat center;
-  background-size: 80vw;
-}
+
 h1 { 
     margin: auto;
     display: inline-block;
     color: blueviolet;
 }
-img{
-    display: inline-block;
-}
+
 
 .image {
     margin: auto;
     display : inline-block;
-    width : 50vw;
 }
 .content{
     width: 85vw;
@@ -41,6 +35,10 @@ img{
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+}
+
+article{
+  padding-top: 1rem;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -73,14 +71,17 @@ img{
 }
 @media  screen and (max-width: 600px) {
     .container {
-        width: 100vw;
-        height: 30vh;
+        width: 90vw;
+        height: 45vh;
     }
+
     .image {
-        width: 100%;
+        width: 90%;
+        height: auto;
     }
+    
     .content {
-        width: 100%;
+        width: 90vw;
     }
     h1 {
         font-size: 1.5rem;
